@@ -2,6 +2,8 @@
 	"window.zoomLevel": -1,
 	"window.commandCenter": true,
 	"window.titleBarStyle": "custom",
+	"window.newWindowDimensions": "inherit",
+	"window.density.editorTabHeight": "compact",
 
 	"editor.tabSize": 3,
 	"editor.fontSize": 18,
@@ -21,7 +23,9 @@
 	"editor.suggest.showSnippets": false,
 	"editor.accessibilitySupport": "off",
 	"editor.guides.bracketPairs": "active",
+	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.copyWithSyntaxHighlighting": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.suggest.snippetsPreventQuickSuggestions": true,
 	"editor.wordSeparators": "`~!@#$%^&*-()=+[{]}\\|;:'\",.<>/?",
@@ -73,7 +77,14 @@
 
 	"files.autoSaveDelay": 1500,
 	"files.associations": { "*.jsx": "javascriptreact" },
-
+	"editor.guides.indentation": true,
+	"editor.hover.delay": 500,
+	"editor.matchBrackets": "never",
+	"editor.colorDecorators": false,
+	"editor.overviewRulerBorder": false,
+	"editor.renderLineHighlight": "all",
+	"editor.cursorBlinking": "phase",
+	"workbench.tips.enabled": false,
 	"security.workspace.trust.enabled": false,
 
 	"tailwindCSS.experimental.classRegex": [
@@ -136,5 +147,22 @@
 
 	"ReactNativeIDE.panelLocation": "tab",
 	"githubPullRequests.pullBranch": "never",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+	"apc.imports": [
+		"file:///Users/omkar/vscode_setup/custom-vscode-script.js",
+		"file:///Users/omkar/vscode_setup/custom-vscode-styles.css"
+	],
+	"apc.stylesheet": {
+		".explorer-folders-view": "zoom: 1.17; transform-origin: 0 0;",
+		".tabs-container .tab.active": {
+			"border-radius": "7px !important"
+		}
+	},
+	"apc.header": { "height": 38 },
+	"apc.listRow": {
+		"lists": ["explorer-folders-view", "quick-input-list"],
+		"height": 26,
+		"fontSize": 14
+	}
 }

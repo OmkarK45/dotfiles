@@ -1,0 +1,162 @@
+{
+	"editor.fontSize": 18,
+	"editor.suggestSelection": "first",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"emmet.includeLanguages": {
+		"ejs": "html",
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact",
+		"postcss": "css"
+	},
+	"files.associations": {
+		"*.ejs": "html",
+		"*.jsx": "javascriptreact"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.snippetSuggestions": "bottom"
+	},
+	"diffEditor.renderSideBySide": true,
+	"window.titleBarStyle": "custom",
+	"explorer.compactFolders": false,
+	"workbench.tree.indent": 16,
+	"workbench.editor.enablePreview": false,
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.semi": false,
+	"files.autoSaveDelay": 1500,
+	"editor.fontFamily": "\"CommitMono\",MonoLisa,\"BerkeleyMono Nerd Font\",\"Rec Mono Linear\",\"IBM Plex\"",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.printWidth": 80,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"editor.smoothScrolling": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.linkedEditing": true,
+	"editor.suggest.snippetsPreventQuickSuggestions": true,
+	"editor.tabSize": 3,
+	"editor.formatOnSave": true,
+	"emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+	"security.workspace.trust.enabled": false,
+	"editor.suggest.showSnippets": false,
+	"editor.suggestLineHeight": 35,
+	"editor.inlineSuggest.enabled": true,
+	"editor.wordSeparators": "`~!@#$%^&*-()=+[{]}\\|;:'\",.<>/?",
+	"editor.guides.bracketPairs": "active",
+	"tailwindCSS.experimental.classRegex": [
+		["tailwind|tw.style\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+	],
+	"http.systemCertificates": false,
+	"[markdown]": {
+		"editor.wordWrapColumn": 50
+	},
+	"markdown-preview-enhanced.previewTheme": "solarized-dark.css",
+	"window.commandCenter": true,
+	"emmet.triggerExpansionOnTab": true,
+	"git.mergeEditor": false,
+	"editor.lineHeight": 46,
+	"editor.padding.top": 20,
+	"editor.padding.bottom": 20,
+	"symbols.hidesExplorerArrows": false,
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"[css]": {
+		"editor.suggest.showVariables": true
+	},
+	"totalTypeScript.hideAllTips": false,
+	"totalTypeScript.hideBasicTips": true,
+	"totalTypeScript.hiddenTips": [
+		"passing-generics-to-types",
+		"typeof",
+		"record-utility-type",
+		"type-predicate",
+		"as-const",
+		"generic-slots-in-functions",
+		"returntype-utility-type",
+		"tuple-type",
+		"parameters-utility-type",
+		"awaited-utility-type",
+		"keyof",
+		"extract-utility-type",
+		"exclude-utility-type",
+		"as-const-on-object",
+		"mapped-type",
+		"uppercase-utility-type",
+		"type-alias-with-generics",
+		"type-alias-with-multiple-generics",
+		"conditional-type",
+		"nested-conditional-type",
+		"never-keyword",
+		"infer",
+		"in-operator-narrowing",
+		"partial-utility-type",
+		"omit-utility-type",
+		"interface-with-generics",
+		"interface-with-multiple-generics",
+		"pick-utility-type",
+		"non-null-expression",
+		"nonnullable-utility-type",
+		"readonly-utility-type"
+	],
+	"editor.accessibilitySupport": "off",
+	"editor.inlayHints.padding": true,
+	"javascript.inlayHints.enumMemberValues.enabled": true,
+	"javascript.inlayHints.parameterNames.enabled": "all",
+	"typescript.inlayHints.parameterNames.enabled": "all",
+	"editor.inlayHints.fontSize": 12,
+	"workbench.iconTheme": "material-icon-theme",
+	"terminal.explorerKind": "external",
+	"terminal.external.osxExec": "iTerm.app",
+	"terminal.integrated.fontFamily": "CommitMono",
+	"typescript.tsserver.log": "off",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"workbench.colorTheme": "Nord Deep",
+	"gitlens.views.showRelativeDateMarkers": false,
+	"editor.fontVariations": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero'",
+	"githubPullRequests.pullBranch": "never",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"editor.stickyScroll.enabled": false,
+	"workbench.tree.renderIndentGuides": "always",
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"workbench.editor.empty.hint": "hidden",
+	"gitlens.ai.experimental.generateCommitMessage.enabled": false,
+	"window.zoomLevel": -1,
+	"editor.fontLigatures": "'ss01','ss02','ss03', 'cv01','cv02','cv10','cv03','cv06','cv09'",
+	"terminal.integrated.lineHeight": 1.5,
+	"terminal.integrated.fontSize": 18,
+	"editor.renderWhitespace": "all",
+	"errorLens.enabled": false,
+	"supermaven.enable": {
+		"*": true
+	},
+	"supermaven.enableFixWithSupermaven": true,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"apc.stylesheet": {
+		".explorer-folders-view": "zoom: 1.17; transform-origin: 0 0;",
+		".tabs-container .tab.active": {
+			"border-radius": "7px !important"
+		}
+	},
+	"apc.header": {
+		"height": 38
+	},
+	"apc.listRow": {
+		"lists": ["explorer-folders-view", "quick-input-list"],
+		"height": 26,
+		"fontSize": 14
+	},
+	"apc.imports": ["Users/omkar/.vscode/scripts/resize-quickinput-widget.js"],
+	"ReactNativeIDE.panelLocation": "tab"
+}
+

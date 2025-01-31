@@ -8,3 +8,9 @@ Color Scheme: Nord Deep + the ones from settings.json
 
 <img width="1511" alt="image" src="https://github.com/user-attachments/assets/f54648bf-48a4-48f8-bf9d-4869762551b4" />
 
+in case of calamity,
+edit css file 
+reload css & js 
+restart vscode 
+friendly ui : enable 
+quit and reload vscode

@@ -1,0 +1,96 @@
+.quick-input-widget .monaco-list-rows {
+	background: transparent !important;
+	font-family: 'IBM Plex Sans' !important;
+}
+
+/* Left sidebar */
+.sidebar .explorer-folders-view .editor-group,
+.sidebar .explorer-folders-view .explorer-item {
+	height: 32px !important;
+	line-height: 32px !important;
+	font-size: 17px !important;
+	font-family: 'IBM Plex Sans' !important;
+}
+.sidebar .explorer-folders-view .monaco-inputbox {
+	margin-top: 4px !important;
+}
+.sidebar .open-editors .editor-group,
+.sidebar .open-editors .open-editor {
+	line-height: 30px !important;
+}
+.sidebar .monaco-icon-label:before {
+	height: 30px !important;
+}
+.sidebar .scm-view .monaco-list-row {
+	line-height: 30px !important;
+}
+.sidebar .monaco-pane-view .pane > .pane-header > .title {
+	text-transform: none !important;
+}
+.sidebar
+	.customview-tree
+	.monaco-list
+	.monaco-list-row
+	.custom-view-tree-node-item {
+	height: 30px !important;
+	line-height: 30px !important;
+}
+
+/* Source Control */
+.scm-view .monaco-list-row .monaco-icon-label-container {
+	height: 30px !important;
+}
+
+/* Command Palette */
+
+.quick-input-widget .quick-input-list {
+	line-height: 36px !important;
+}
+.quick-input-widget .quick-input-list-entry-action-bar .actions-container {
+	height: 36px !important;
+}
+.quick-input-widget .monaco-icon-label:before {
+	height: 36px !important;
+}
+.quick-input-widget .quick-input-and-message .monaco-inputbox {
+	margin-bottom: 2px !important;
+}
+.quick-input-widget
+	.quick-input-and-message
+	.monaco-inputbox
+	.ibwrapper
+	> .input {
+	height: 35px !important;
+	font-size: 13px !important;
+	letter-spacing: 0.2px;
+}
+.quick-input-widget .quick-input-and-message .controls {
+	top: 0px !important;
+	top: 50% !important;
+	margin-top: -10px !important;
+}
+
+/* Scrollbar */
+.decorationsOverviewRuler {
+	width: 5px !important;
+}
+
+.scrollbar {
+	width: 5px !important;
+}
+.scrollbar .slider {
+	width: 5px !important;
+	border-radius: 2.5px !important;
+}
+
+/* Composite */
+.composite.has-composite-bar.header-or-footer .composite-bar {
+	margin: 0 auto !important;
+	width: 100% !important;
+}
+
+.composite.has-composite-bar.header-or-footer
+	.composite-bar
+	.actions-container {
+	justify-content: space-around !important;
+} /*# sourceMappingURL=custom.css.map */
